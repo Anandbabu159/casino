@@ -1,12 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
+//import "./App.css";
+import TaskManagement from "./TaskManagement";
+// import Footer from "./Footer";
+// import Header from "./Header";
+// import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h2>poda</h2>
+      <TaskManagement />
     </div>
   );
 }
-
 export default App;
