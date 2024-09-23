@@ -1,0 +1,146 @@
+/* Sidebar Styles */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: -250px;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: 0.5s;
+}
+
+.sidenav.open {
+  left: 0;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav-header {
+  color: white;
+  font-size: 24px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+hr {
+  margin: 10px 0;
+  border: 1px solid #818181;
+}
+.nav-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: #060b40;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav.open {
+  width: 300px;
+}
+
+.sidenav a {
+  padding: 15px 8px 12px 22px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e8eaed;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  white-space: nowrap;
+  border: 2px;
+  margin: 18px;
+  border-radius: 20px;
+  background-color: #1d268e;
+}
+
+.sidenav a:hover {
+  background-color: #dc2e42;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -30px;
+  right: 8px;
+  font-size: 36px;
+  margin-left: 50px;
+  background: none;
+}
+.sidenav .closebtn:hover {
+  background-color: #060b40;
+}
+
+.sidenav-header {
+  color: #e8eaed;
+  font-size: 24px;
+  padding: 8px 40px 8px 32px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.navItem {
+  border: 10px solid #e8eaed;
+}
+/* Overlay when sidebar is open */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  transition: 0.3s;
+}
+.sidenav.open .tm {
+  background-color: #dc2e42;
+}
