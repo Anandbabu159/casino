@@ -1,0 +1,128 @@
+/* Navbar */
+.navbar {
+    background-color: #00224f;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .navbar-title {
+    margin-left: 10px;
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: -300px; /* Hidden by default */
+    background-color: #00224f;
+    padding-top: 20px;
+    transition: 0.3s;
+    z-index: 999;
+    overflow-y: auto;
+  }
+  
+  /* Sidebar Header */
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .user-icon {
+    font-size: 24px;
+    margin-right: 6%;
+    margin-left: 10%;
+  }
+  
+  .user-role {
+    flex-grow: 1;
+  }
+  
+  .close-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 90%;
+  }
+  
+  hr{
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  /* Sidebar Menu */
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-menu li {
+    padding: 1px;
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 30px;
+    background-color: #121d91;
+    transition: background 0.3s;
+  }
+  
+  .sidebar-menu li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-menu li i{
+    margin-right: 10px;
+  }
+  
+  .sidebar-menu li:hover {
+    background-color: #ff4b4b;
+    border-radius: 30px;
+  }
+  
+  .icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .sidebar-menu li a.active {
+    background-color: #ff4b4b;
+  }
+  
+  .sidebar-menu li a:hover {
+    background-color: #ff4b4b;
+  }
+  
