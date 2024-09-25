@@ -3,7 +3,7 @@
   height: 100%;
   width: 250px;
   position: fixed;
-  z-index: 1000;
+  z-index: 999;
   top: 0;
   left: -250px;
   background-color: #111;
@@ -14,6 +14,7 @@
 
 .sidenav.open {
   left: 0;
+  padding: 20px 0px 0px;
 }
 
 .sidenav a {
@@ -70,20 +71,20 @@ hr {
 }
 
 .sidenav.open {
-  width: 300px;
+  width: 350px;
 }
 
 .sidenav a {
   padding: 15px 8px 12px 22px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 22px;
   color: #e8eaed;
   display: flex;
   align-items: center;
   transition: 0.3s;
   white-space: nowrap;
   border: 2px;
-  margin: 18px;
+  margin: 20px 10px;
   border-radius: 20px;
   background-color: #1d268e;
 }
